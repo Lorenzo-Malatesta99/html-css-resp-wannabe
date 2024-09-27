@@ -1,2 +1,38 @@
 /* desktop first */
+/* Tablet */
 
+
+
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:480px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        justify-content: center;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .why-us{
+        background-color: rgb(36, 36, 46);
+    }
+}
