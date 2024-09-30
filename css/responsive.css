@@ -3,11 +3,11 @@
 
 
 
-@media (max-width:768px) {
-    .container{
-        width: 100%;
+
+.container{
+        max-width: 100%;
     }
-}
+
 
 
 @media (max-width:480px){
@@ -32,7 +32,12 @@
     h3{
         font-size: 2rem;
     }
+    .steps{
+        margin-bottom: 0;
+    }
     .why-us{
         background-color: rgb(36, 36, 46);
+        padding: 3rem 0;
+        margin-bottom: 0;
     }
 }
